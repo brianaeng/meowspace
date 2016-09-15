@@ -4,12 +4,14 @@ html {
 }
 
 body {
-  margin-left: 25px;
-  margin-right: 25px;
+  /*margin-left: 25px;
+  margin-right: 25px;*/
+  margin: 0 50px;
 }
 
 a {
   text-decoration: none;
+  color: #4f4f4f;
 }
 
 header *, footer * {
@@ -22,32 +24,39 @@ nav li {
 
 header nav {
   float: right;
-  vertical-align: top;
   margin-right: 40px;
+  vertical-align: middle;
+  font-size: 1.1rem;
 }
 
 footer h4 {
   width: 5%;
-  vertical-align: top;
+  vertical-align: middle;
   margin-left: 10px;
 }
 
 footer nav {
-  vertical-align: top;
+  vertical-align: middle;
   float: right;
   margin-right: 40px;
+  font-size: .8rem;
 }
 
 #disclaimer {
-  width: 60%;
+  width: 80%;
   font-size: .75rem;
+  vertical-align: middle;
 }
 
+header h1 {
+  margin-left: 20px;
+}
 
 /* HOMEPAGE */
 .homepage-width {
   width: 70%;
   display: inline-block;
+  margin-left: 20px;
 }
 
 main section p {
@@ -55,7 +64,7 @@ main section p {
 }
 
 #top-cats {
-  margin-left: 20px;
+  margin-left: 100px;
   width: 20%;
   display: inline-block;
   vertical-align: top;
@@ -65,26 +74,23 @@ main section p {
   display: none;
 }
 
-/* ARTICLE */
+.homepage-title {
+  background-color: lightgray;
+  padding: 5px 20px;
+}
 
+/* ARTICLE */
 .article-style {
   width: 80%;
   margin: 0 auto;
   display: inline-block;
 }
 
-.center-image {
-  display: block;
-  margin: 0 auto;
-}
-
-.center-section {
-  display: flex;
-  justify-content: center;
-}
-
-.center-text {
+.article-title {
   text-align: center;
+  background-color: lightgray;
+  padding: 5px;
+  margin-bottom: 25px;
 }
 
 .resize-image-large {
@@ -95,7 +101,7 @@ main section p {
 .resize-image-small {
   height: 40px;
   width: 40px;
-  margin-left: 4px;
+  margin: 4px;
 }
 
 .float-left {
@@ -105,7 +111,76 @@ main section p {
   margin-left: 75px;
   margin-right: 10px;
 }
+.center-image {
+  display: block;
+  margin: 0 auto;
+}
 
+.center-section {
+  display: flex;
+  justify-content: center;
+}
+
+/* PROFILES */
+
+.profile-name {
+  text-align: center;
+  font-size: 3em;
+  position: relative;
+  height: 100px;
+  background-color: lightgray;
+  z-index: 1;
+  left: 0px;
+  top: 0px;
+  line-height: 100px;
+}
+
+.profile-details {
+  position: absolute;
+  z-index: 2;
+  left: 175px;
+  top: 180px;
+  width: 50%;
+}
+
+.profile-image {
+  border-radius: 50%;
+  display: inline;
+  height: 125px;
+  width: 125px;
+  margin-left: 20px;
+}
+
+.profile-date {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.profile-article {
+  width: 30%;
+  display: inline-block;
+  margin: 15px;
+}
+
+.center-posts {
+  text-align: center;
+}
+
+.center-posts p {
+  display: inline-block;
+  text-align: left;
+}
+
+.clear-posts {
+  margin-top: 125px;
+}
+
+.clear-posts h2 {
+  margin-left: 20px;
+  font-size: 1.75rem;
+}
 
 /* TESTING */
 /** {
