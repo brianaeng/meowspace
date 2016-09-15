@@ -12,12 +12,16 @@ a {
   color: #4f4f4f;
 }
 
+header a {
+  color: white;
+}
+
 header *, footer * {
   display: inline-block;
 }
 
 nav li {
-  margin: 5px;
+  margin: 10px;
 }
 
 header nav {
@@ -50,10 +54,15 @@ header h1 {
   margin-left: 20px;
 }
 
-header:after {
+/*header:after {
   content:' ';
   display:block;
   border:2px solid black
+}*/
+
+header {
+  background-color: #132eb8;
+  color: white;
 }
 
 /* HOMEPAGE */
