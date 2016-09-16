@@ -65,38 +65,64 @@ header {
   color: white;
 }
 
-/* HOMEPAGE */
-.homepage-width {
-  width: 70%;
-  display: inline-block;
+/* PROFILES */
+
+.profile-name {
+  text-align: center;
+  font-size: 2.5em;
+  position: relative;
+  height: 100px;
+  background-color: lightgray;
+  left: 0px;
+  top: 0px;
+  line-height: 100px;
+  margin: 0px;
+}
+
+.profile-details {
+  position: absolute;
+  left: 175px;
+  top: 140px;
+  width: 50%;
+}
+
+.profile-image {
+  border-radius: 50%;
+  display: inline;
+  height: 150px;
+  width: 150px;
   margin-left: 20px;
+  border: black 5px solid;
 }
 
-.homepage-width article {
-  margin: 10px 0 30px 0;
-}
-
-main section p {
-  width: 90%;
-}
-
-#top-cats {
-  margin-left: 100px;
-  width: 20%;
+.profile-date {
   display: inline-block;
   vertical-align: top;
+  margin-top: 50px;
+  margin-left: 10px;
 }
 
-.hide-this {
-  display: none;
+.profile-article {
+  width: 30%;
+  display: inline-block;
+  margin: 15px;
 }
 
-.homepage-title {
-  background-color: lightgray;
-  padding: 5px 20px;
+.center-posts {
+  text-align: center;
 }
 
-/* TESTING */
-/** {
-  border: black 1px solid;
-}*/
+.center-posts p {
+  display: inline-block;
+  text-align: left;
+  width: 80%;
+}
+
+.clear-posts {
+  margin-top: 140px;
+}
+
+.clear-posts h2 {
+  margin-left: 20px;
+  font-size: 1.75rem;
+}
