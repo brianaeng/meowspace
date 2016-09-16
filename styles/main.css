@@ -20,7 +20,7 @@ header *, footer * {
   display: inline-block;
 }
 
-nav li {
+header nav li {
   margin: 10px;
 }
 
@@ -61,7 +61,7 @@ header h1 {
 }*/
 
 header {
-  background-color: #132eb8;
+  background-color: rgb(0, 51, 153);
   color: white;
 }
 
@@ -163,16 +163,17 @@ main section p {
 .profile-image {
   border-radius: 50%;
   display: inline;
-  height: 125px;
-  width: 125px;
+  height: 150px;
+  width: 150px;
   margin-left: 20px;
+  border: black 5px solid;
 }
 
 .profile-date {
   display: inline-block;
   vertical-align: top;
   margin-top: 50px;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .profile-article {
@@ -188,10 +189,11 @@ main section p {
 .center-posts p {
   display: inline-block;
   text-align: left;
+  width: 80%;
 }
 
 .clear-posts {
-  margin-top: 125px;
+  margin-top: 140px;
 }
 
 .clear-posts h2 {
